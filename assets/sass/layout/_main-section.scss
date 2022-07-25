@@ -1,0 +1,33 @@
+article{
+    padding-top: 50px;
+}
+.opciones{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.perfil{
+    border-top: 1px solid #e7e7e7;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    align-items: center;
+    img{
+        border-radius: 90%;
+    }
+    p{
+        padding: 20px;
+    }
+}
+.anterior_siguiente{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #d1d1d1;
+}
+@media only screen and (max-width:768px){
+    .perfil {
+        padding-bottom: 50px;
+        .nombre-perfil{
+            padding-top: 60px;
+        }
+    }
+}
